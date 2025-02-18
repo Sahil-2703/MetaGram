@@ -55,7 +55,7 @@ Built with React.Js, Node.js, Express.Js and MongoDB, a socail media platform wh
 
 ## <a name="features">🔋 Features</a>
 
-### Features of GoFood-Food delivery Application project
+### Features of MetaGram project
 
 
 👉 **Home Page**: You can see your profile and post that you had posted among your friends.
