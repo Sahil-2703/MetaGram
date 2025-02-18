@@ -62,14 +62,14 @@ app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
 /* MONGOOSE SETUP */
-const PORT = 5000 || 6001;
+const PORT = 5001 || 6001;
 mongoose
   .connect("mongodb://0.0.0.0:27017/SocialMedia", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-  })
+  },console.log('connected'))
   .then(() => {
-    app.listen(5000, () => console.log(`Server Port: ${PORT}`));
+    app.listen(5001, () => console.log(`Server Port: ${PORT}`));
 
     /* ADD DATA ONE TIME */
     // User.insertMany(users);
